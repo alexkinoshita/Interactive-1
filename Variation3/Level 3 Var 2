@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+img{
+float:right;
+margin:0px 30px 10px 50px;
+
+.static{
+	position:static;
+	background-color:#efbb9e;
+	height:200px;
+	width:400px;
+}
+
+.intro{
+	color:blue
+	font-style:italic;
+}
+
+.secondary{
+	color:pink
+	font-style:normal;
+
+}
+.container{
+	width: 50%;
+	overflow:auto;
+	border: 3px solid yellow;
+
+
+
+.relative{
+	height:300;
+	width:300;
+	background-color:#f1bc9e;
+	position:relative;
+	top:100px;
+	left:150px;
+}
+<style>
+
+If you'll be my bodyguard I can be
+your long lost pal I can call you Betty<p>
+And Betty when you call me You can call me Al
+
+a:PAUL SIMON{
+	text-decoration:none;
+	color:#efbb9e;
+}
+
+.container{
+	width: 50%;
+	overflow:auto;
+	border: 3px solid yellow;
+}
+<p>
+If you'll be my bodyguard I can be <br>
+your long lost pal I can call you Betty<br>
+And Betty when you call me You can call me Al<br>
+</style>
+
+img{
+	float: right;
+	width:70px;
+	margin:40px;
+}
+<div class="container">
+	<img src="PHOTO.jpg"
+
+</div>
+</div>
+
+</style>
+</head>
+</html>
