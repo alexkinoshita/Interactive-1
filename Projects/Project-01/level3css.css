@@ -27,8 +27,8 @@ position: left;
 }
 .box-row6{
 	display: inline-block;
-	width: 100px;
+	width: 500px;
 	text-decoration-color: red;
-	height: 500px;
-	margin:20px;
+	height: 90px;
+	margin:10px;
 	border: 1px black;	

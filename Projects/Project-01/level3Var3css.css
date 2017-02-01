@@ -23,3 +23,22 @@
 	position:relative;
 	top:100px;
 	left:150px;
+
+
+}
+.block1{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin:300px;
+	}
+
+
+.box-row6{
+	display: inline-block;
+	width: 100px;
+	height: 10px;
+	margin:40px;
+	border: 6px black;	
+}
+
