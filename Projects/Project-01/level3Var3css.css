@@ -1,0 +1,25 @@
+.text{
+	position:relative;
+	height:400px;
+	width:200px;
+}
+
+.container{
+	width: 50%;
+	overflow:auto;
+	border: 3px solid blue;
+}
+.static{
+	position:static;
+	background-color:#efbb9e;
+	height:200px;
+	width:400px;
+
+}
+.relative{
+	height:300;
+	width:300;
+	background-color:#f1bc9e;
+	position:relative;
+	top:100px;
+	left:150px;
