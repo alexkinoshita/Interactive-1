@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background: #07204c;
+	font-family: sans-serif;
+}
+
+.space-out{
+	line-height: 3em;
+}
+
+#leftall1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	color:white;
+}
+#rightall1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: right;
+	color:#0eccf7;
+}
+#leftall2{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	color:#0ea2ee;
+}
+#rightall2{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: right;
+	color:#0e6ee2;
+
+}
+
+#leftall3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	color:#0e4dc1;
+}
+#rightall3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: right;
+	color:#0e2d96;
+}
+#leftall4{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	color:#0e177b;
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+
+	background: #58585b;
+	font-family: sans-serif;
+}
+
+.space{
+	line-height: 2.4em;
+	
+}
+
+#formal{
+	text-decoration: : line-through;
+	font-weight: italic;
+	font-size: 3em;
+	text-align: right;
+	color:white;
+	
+}
+#formal2{
+	text-decoration: : line-through;
+	font-weight: italic;
+	font-size: 4em;
+	text-align: left;
+	color:white;
+}

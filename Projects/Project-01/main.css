@@ -6,38 +6,44 @@ body{
 
 	font-family: sans-serif;
 	line-height: 1.5em;
-	background:white;
+	background:#ffa098;
 	font-size: 1em;
+	color:#eef961;
 }
 
 h1{
-	margin: 20px;
+	margin: 100px;
 	font-size: 3em;
 	font-style: bold;
+	color: #eef961;;
+	
 }
 
 .main{
 	width: 80%;
 	margin: 100px auto;
 	padding: 50px;
+	color: #eef961;
 }
 
 
 ul{
 	list-style: none;
+
 }
  
 ul li{
-	color: #dadada;
+	color: #eef961;
 }
 
 a:link{
-	color: #0000ff;
+	color: #eef961;
 	text-decoration: none;
 }
 
 a:hover{
-	text-decoration: underline;
+	text-decoration: line-through;
+	color: #eef961;
 }
 
 

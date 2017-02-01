@@ -1,0 +1,44 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:white;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #0ff0ff;
+	float: left;
+	margin: 15px;
+
+}
+
+
+.circle-outline{
+	width: 100px;
+	height: 100px;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 10px;
+}
+	/* create pattern-2 CSS here */
+}
+
+.pattern-3{	
+	height: 500px;
+	/* create pattern-3 CSS here */
+	
+}
+
+.pattern-4{
+	height: 100%;
+}
+

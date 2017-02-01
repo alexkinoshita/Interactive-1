@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>You can Call me Al</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="styles.css" />
+	<head>
+
+	<body>
+		<div class="talking-head"></div>
+
+		<div class="box1"
+
+		<div class="box3">
+			If you'll be my bodyguard
+			I can be your long lost pal
+			I can call you Betty
+			And Betty when you call me
+			You can call me Al
+			Call me Al
+
+		<div class="box1">
+			If you'll be my bodyguard
+			I can be your long lost pal
+			I can call you Betty
+			And Betty when you call me
+			You can call me Al
+			Call me Al
+
+		<div class="box4">
+			<strong>If you'll be my bodyguard<br>
+			I can be your long lost pal
+			I can call you Betty<br>
+			And Betty when you call me
+			You can call me Al
+			Call me Al<br></strong>
+
+</div>
+</body>
+</html>
