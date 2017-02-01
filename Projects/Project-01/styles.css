@@ -8,20 +8,18 @@
 
 .box1{
 	display: inline-black;
-	background-color: #74abee;
-	width:600px;
+	width:100px;
 	height:350px;
-	margin:50px;
+	margin:300px;
 	border: 3px solid #FFFFFF
 }
 
 .box2{
 	display: inline-block;
-	background-color: #de4d70;
 	width: 300px;
-	height: 300px;
-	margin:20px;
-	border: 1px #000000;
+	height: 30px;
+	margin:100px;
+	border: 1px inline-black;
 }
 
 .box3{
@@ -29,7 +27,7 @@
 	background-color: solid white;
 	width:14px;
 	height:500px;
-	margin:60px;
+	margin:100px;
 	border: 3px solid black;
 
 }
@@ -40,11 +38,21 @@
 }
 .box4{
 	display: inline-black;
-	background-color: #ffab0F;
-	width:500px;
-	height:30px;
+	width:50px;
+	height:300px;
 	margin:100px;
 	border: 7px solid #FFFFFF;
+
+
+}
+
+.box5{
+	display: inline-black;
+	width:160px;
+	background-color: black
+	height:60px;
+	margin:60px;
+	
 }
 .
 
