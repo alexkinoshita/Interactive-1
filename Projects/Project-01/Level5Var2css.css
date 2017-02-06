@@ -1,0 +1,54 @@
+
+
+body{
+	
+	background:#0fa990;
+	}
+
+.extruded1{
+    color: #ec8d86;
+    border:100px;
+    padding:20px;
+    font-family: proxima-nova-1, proxima-nova-2, 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 48px;
+    font-weight: bold;
+    text-align:right;
+    text-shadow: #000 1px 1px, #000 2px 2px, #000 3px 3px;
+    position: relative;
+    -moz-transition: all 0.3s ease-out; /* FF3.7+ */
+       -o-transition: all 0.3s ease-out; /* Opera 10.5 */
+  -webkit-transition: all 0.3s ease-out; /* Saf3.2+, Chrome */
+          transition: all 0.3s ease-out;
+}
+
+.extruded1:hover {
+    color: #d127e3;
+    text-shadow: #58E 1px 1px, #58E 2px 2px, #58E 3px 3px, #58E 4px 4px, #58E 5px 5px, #58E 6px 6px;
+    left: -6px;
+    top: -6px;
+}
+.extruded2{
+	text-align: right ;
+	border:100px;
+    color: #d1f735;
+    padding:20px;
+    font-family: proxima-nova-1, proxima-nova-2, 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 48px;
+    text-align:left;
+    font-weight: bold;
+    text-shadow: #000 1px 1px, #000 2px 2px, #000 3px 3px;
+    position: relative;
+    -moz-transition: all 0.3s ease-out; /* FF3.7+ */
+       -o-transition: all 0.3s ease-out; /* Opera 10.5 */
+  -webkit-transition: all 0.3s ease-out; /* Saf3.2+, Chrome */
+          transition: all 0.3s ease-out;
+}
+
+.extruded2:hover {
+    color: #b1cbde;
+    text-shadow: #58E 1px 1px, #58E 2px 2px, #58E 3px 3px, #58E 4px 4px, #58E 5px 5px, #58E 6px 6px;
+    left: -6px;
+    top: -6px;
+}
+
+}
