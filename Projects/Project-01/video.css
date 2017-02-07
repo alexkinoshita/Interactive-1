@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box
+}
+
+body{
+	font-family: 'Amatic SC', cursive;
+	line-height: 4em;
+	background:#ffa098;
+	color:#eef961;
+	font-size: 4em
+
+}
+.relative{
+	font-family: 'Amatic SC', cursive;
+	font size:2em;
+	color:#eef961;
+	height:300;
+	width:300;
+	position:relative;
+	top:100px;
+}
+
+.container {
+  height: 300px;
+  width: 300px;
+  background: #eee;
+  position: absolute;
+  margin: -150px 0 0 -150px;
+  left: 50%;
+  top: 50%;
+
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #222;
+  position: absolute;
+  
+  /*Centering Method 2*/
+  margin: -50px 0 0 -50px;
+  left: 50%;
+  top: 50%;
+}

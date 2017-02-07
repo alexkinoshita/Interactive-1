@@ -1,0 +1,30 @@
+*{
+	
+}
+
+
+.horizontal-left{
+border: 80px;
+margin:10px 0px 10px 20px;
+position: right;
+display:auto;
+}
+.intro{
+	color:blue
+	font-style:italic;
+}
+.static{
+	position:static;
+	background-color:#efbb9e;
+	height:200px;
+	width:400px;
+}
+.boxy{
+	position:static;
+	background-color:#eff579;
+	height:60000px;
+	margin:300px;
+	width:100px;
+	font-size: 48px;
+    text-align:left;
+    font-weight: bold;

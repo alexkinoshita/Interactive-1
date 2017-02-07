@@ -1,11 +1,237 @@
+
 * {
-	
+	box-sizing: border-box;
 }
 
 body{
-	{
-background-color: #F5908A;
-background: linear-gradient(to bottom, #D11960 15%,#F5908A 85%);
+
+	background: #725069;
+	font-family: 'Permanent Marker', cursive;
 }
+
+.space-out{
+	line-height: 3em;
+}
+
+#leftall1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: center;
+	color:white;
+	padding-bottom:100%;
+	
+}
+#rightall1{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 4em;
+	text-align: right;
+	color:white;
+	padding-bottom:100%;
+}
+#leftall2{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 6em;
+	text-align: left;
+	color:white;
+	padding-bottom:100%;
+	
+}
+#rightall2{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: center;
+	color:white;
+	padding-bottom:100%;
+
+}
+
+#leftall3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: center;
+	color:white;
+
+}
+#rightall3{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 4em;
+	text-align: right;
+	color:white;
+	padding-bottom:100%;
+}
+#leftall4{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: left;
+	color:white;
+}
+
+#leftall5{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 6em;
+	text-align: center;
+	color:white;
+	padding-bottom:100%;
+	
+}
+#rightall5{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 4em;
+	text-align: right;
+	color:white;
+	padding-bottom:100%;
+	
+}
+#leftall6{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: left;
+	color:white;
+	padding-bottom:100%;
+}
+#rightall6{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 6em;
+	text-align: center;
+	color:white;
+	padding-bottom:100%;
+
+
+}
+
+#leftall7{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 4em;
+	text-align: center;
+	color:white;
+
+}
+#rightall7{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: right;
+color:white;
+	padding-bottom:100%;
+}
+#leftall8{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 5em;
+	text-align: left;
+	color:white;
+}
+
+#rightall8{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: right;
+	color:white;
+	padding-bottom:100%;
+}
+#leftall9{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	color:white;
+	padding-bottom:100%;
+}
+#rightall9{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+	color:white;
+	padding-bottom:100%;
+
+}
+
+#leftall10{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+	color:white;
+
+}
+#rightall10{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: right;
+	color:white;
+	padding-bottom:100%;
+}
+#leftall11{
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: left;
+	color:#;
+}
+
+
+
+
+.cbutton {
+	position: relative;
+	display: inline-block;
+	margin: 1em;
+	padding: 0;
+	border: none;
+	background: none;
+color:white;
+	font-size: 1.4em;
+	transition: color 0.7s;
+}
+.cbutton.cbutton--click,
+.cbutton:focus {
+	outline: none;
+	color: #3c8ddc;
+}
+
+.cbutton__icon {
+	display: block;
+}
+
+.cbutton__text {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.cbutton::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -35px 0 0 -35px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+
+
+
 
 

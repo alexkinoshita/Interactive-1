@@ -11,7 +11,6 @@
 }
 .static{
 	position:static;
-	background-color:#efbb9e;
 	height:200px;
 	width:400px;
 
@@ -19,10 +18,9 @@
 .relative{
 	height:300;
 	width:300;
-	background-color:#f1bc9e;
 	position:relative;
 	top:100px;
-	left:150px;
+	
 
 
 }
@@ -36,8 +34,8 @@
 
 .box-row6{
 	display: inline-block;
-	width: 100px;
-	height: 10px;
+	width: 300px;
+	height: 300px;
 	margin:40px;
 	border: 6px black;	
 }
