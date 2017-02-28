@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #AEE2FA;
+}
+
+.canvas {
+	width: 900px;
+	height: 560px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#circle {
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: #83E87E;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+
+#pineapple {
+	position:relative;
+	width: 100px;
+	height: 200px;
+	left: -50px;
+	top:100px;
+	background: #D8AE4E;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#blue {
+	position:relative;
+	left:20px;
+	top:-165px;
+	width: 70px;
+	height: 70px;
+	background: #2052CE;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 50px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+#pink{
+	position:relative;
+	left:40px;
+	top:300px;
+	width: 150px;
+	height: 150px;
+	background: #ED88D0;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+#p-top{
+	position:absolute;
+	width: 80px;
+  	height: 80px;
+  	left:400px;
+  	border-radius: 50%;
+  	box-shadow: 15px 15px 0 0 #1F4F06;
+  	-webkit-transform:rotate(180deg);
+  	margin-right:auto;
+	margin-left:auto;
+	top:200px;
+}
+  #p-top2{
+	position:absolute;
+	width: 80px;
+  	height: 80px;
+  	left:305px;
+  	border-radius: 50%;
+  	box-shadow: 15px 15px 0 0 #1F4F06;
+  	-webkit-transform:rotate(280deg);
+  	margin-right:auto;
+	margin-left:auto;
+	top:195px;
+}    
+#ref-blue{
+	position:absolute;
+	width: 40px;
+  	height: 40px;
+  	left:450px;
+  	border-radius: 50%;
+  	box-shadow: 5px 5px 0 0 #7A9EE5;
+  	-webkit-transform:rotate(180deg);
+  	margin-right:auto;
+	margin-left:auto;
+	top:300px;
+}    
+
+#table{
+	position:absolute;
+	width: 700px;
+	height: 100px;
+	top:400px;
+	left:400;
+	background: #6a2a0d;
+}
+#vase{
+	position:absolute;
+	display:block;
+   width: 65px;
+   height: 80px;
+   background-color: #006450;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   left:520px;
+   top:370px;
+}
+ #vasetop{
+ 	position:absolute;
+	width: 20px;
+	height: 20px;
+	top:355px;
+	left:543px;
+	background: #006450;
+ }
+#vaseref{
+	position:absolute;
+	width: 15px;
+	height: 20px;
+	background: #0ba079;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	left:560px;
+	top:385px;
+
+}
+
+
+}
+}
+	
+
+
+
+
+
+
+
+
+
+
+

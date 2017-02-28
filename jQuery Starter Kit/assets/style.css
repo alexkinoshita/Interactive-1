@@ -1,0 +1,19 @@
+.red{
+	color:red;
+}
+
+#intro{
+	position: relative;
+	font-family:sans-serif;
+	margin: 50px;
+}
+
+.secondary{
+	position:relative;
+	font-family:sans-serif;
+	margin: 150px;
+}
+
+h1{
+	color:gray;
+}
