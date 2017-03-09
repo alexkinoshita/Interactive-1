@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #AEE2FA;
+}
+
+.canvas {
+	width: 900px;
+	height: 560px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#frontwheel {
+	position:relative;
+	width: 100px;
+	height: 100px;
+	background: #83E87E;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-right:auto;
+	margin-left:auto;
