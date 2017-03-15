@@ -1,10 +1,19 @@
 function setup(){
 
-	createCanvas(600,600);
-	background(0);
+	createCanvas(windowWidth, windowHeight);
+	
 }
 
 function draw(){
+
+x = 
+ if (x < y)
+
+
+
+
+
+
 
 	 var x = 0;
 
@@ -20,5 +29,8 @@ for (var a = 0; a <= width; a+=50){
 	fill(a,a,a);
 	ellipse(a,400,50,50);
 }
+
+var x = 
+var y = 
 
 }

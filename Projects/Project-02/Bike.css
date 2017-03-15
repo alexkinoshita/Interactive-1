@@ -4,7 +4,7 @@
 
 
 html{
-	background: #49dfff;
+	background: #d6f2ec;
 }
 
 .bike{
@@ -26,9 +26,9 @@ html{
 	position: absolute;
 	bottom: 0px;
 }
-.bike .ride:nth-child(even){
+/*.bike .ride:nth-child(even){
 	left: 0px;
-}
+}*/
 .bike .ride:nth-child(odd){
 	right: 0px;
 }
@@ -36,13 +36,12 @@ html{
 	width: 78px;
 	height: 78px;
 	display: block;
-	background: #49dfff;
+	background: gray;
 	border-radius: 50%;
 	position: absolute;
 	top: 22px;
 	left: 22px;
-	-webkit-animation: girando 800ms infinite linear;
-	        animation: girando 800ms infinite linear;
+	
 
 }
 .bike .fourth{
@@ -165,6 +164,46 @@ html{
 	top: 126px;
 	left: 99px;
 }
+
+#everything2{
+	top: 100px;
+}
+
+.newClass{
+	@-webkit-keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+}
+
+}
+
+
 
 
 
