@@ -1,5 +1,24 @@
 function setup(){
 
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	createCanvas(windowWidth, windowHeight);
 	
 }
@@ -8,13 +27,6 @@ function draw(){
 
 x = 
  if (x < y)
-
-
-
-
-
-
-
 	 var x = 0;
 
 	while( x <= width ){
