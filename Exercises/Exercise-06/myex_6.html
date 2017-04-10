@@ -1,0 +1,220 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+  		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+
+  		<style>
+
+         #draggable:hover{
+          cursor: crosshair;
+         }
+
+         #draggable2:hover{
+          cursor: wait;
+         }
+
+        #draggable3:hover{
+          cursor: cell;
+         }
+
+          #draggable4:hover{
+          cursor: text;
+         }
+         #draggable5:hover{
+          cursor: not-allowed;
+         }
+
+/*DROPPABLE*/
+
+		#droppable{ /*FOR GREEN*/
+          width: 150px;
+          position: absolute;
+          height: 150px;
+          padding: 0.5em;
+          background-color: white;
+          border: #000000 1px solid;
+          font-style: sans-serif;
+          color: green;
+          left: 400px;
+          position: absolute;
+          top:50px;
+
+         }
+
+         #droppable2{ /*FOR PINK*/
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+          background-color: white;
+          border: #000000 1px solid;
+          font-style: sans-serif;
+          color: pink;
+          left: 400px;
+          position: absolute;
+          top:350px;
+          
+         }
+
+         #droppable3{ /*FOR BLUE*/
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+          background-color: white;
+          border: #000000 1px solid;
+          font-style: sans-serif;
+          color: blue;
+          left: 400px;
+          position: absolute;
+          top: 550px;
+         }
+
+         #droppable4{ /*FOR YELLOW*/
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+          background-color: white;
+          border: #000000 1px solid;
+          font-style: sans-serif;
+          color: yellow;
+          left: 400px;
+          position: absolute;
+          top:750px;
+         }
+
+         #droppable5{ /*FOR PURPLE*/
+          width: 150px;
+          height: 150px;
+          padding: 0.5em;
+          background-color: white;
+          border: #000000 1px solid;
+          font-style: sans-serif;
+          color: purple;
+          left: 400px;
+          position: absolute;
+          top:950px;
+         }
+
+/*DRAGGABLE TRIANGLES*/
+
+  			#draggable{
+	width:0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #68c1a4; /*GREEN*/
+	border-bottom: 50px solid transparent;
+	top: 100px;
+}
+
+		#draggable2{
+	height: 0;
+	width:0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #d05795; /*PINK*/
+	border-bottom: 50px solid transparent;
+	top: 300px;
+}
+
+		#draggable3{
+	height: 0;
+	width:0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #39affb; /*BLUE*/
+	border-bottom: 50px solid transparent;
+	top: 400px;
+}
+
+		#draggable4{
+	height: 0;
+	width:0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #f2ea9d; /*YELLOW*/
+	border-bottom: 50px solid transparent;
+	top: 500px;
+}
+
+		#draggable5{
+	height: 0;
+	width:0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #af96e6; /*PURPLE*/
+	border-bottom: 50px solid transparent;
+	top: 600px;
+}
+
+  		</style>
+
+      <script>
+/*DRAGGABLE FUNCTIONS*/ 
+
+        $(function(){
+          $('#draggable').draggable();
+          $('#draggable2').draggable();
+          $('#draggable3').draggable();
+          $('#draggable4').draggable();
+          $('#draggable5').draggable();
+        });
+
+      </script>
+	</head>
+
+	<body> 
+
+	<!--DROP-->
+
+ <div id= "droppable" class="ui-widget-header">
+      <p> GREEN </p>
+    </div>
+
+    <div id= "droppable2" class="ui-widget-header">
+      <p> PINK </p>
+    </div>
+
+     <div id= "droppable3" class="ui-widget-header">
+      <p> BLUE </p>
+    </div>
+
+    <div id= "droppable4" class="ui-widget-header">
+      <p> YELLOW </p>
+    </div>
+
+    <div id= "droppable5" class="ui-widget-header">
+      <p> PURPLE </p>
+    </div>
+
+	<!--DRAG-->
+		<div id= "draggable" class="ui-widget-content">
+			<p></p>
+		</div>
+
+    <div id= "draggable2" class="ui-widget-content">
+      <p></p>
+    </div>
+
+    <div id= "draggable3" class="ui-widget-content">
+			<p></p>
+		</div>
+
+    <div id= "draggable4" class="ui-widget-content">
+      <p></p>
+    </div>
+    <div id= "draggable5" class="ui-widget-content">
+			<p></p>
+		</div>
+
+
+    </div>
+
+
+	</body>
+</html
+
+
+
+
+
+
+
+
