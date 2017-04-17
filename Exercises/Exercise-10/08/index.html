@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+
+
+			var myVideo = document.getElementById("rick");
+
+				myVideo.pause();
+
+				$("#doorbell")[0].play();
+		/*
+				var dogAudio = $("#bark")[0];
+				dogAudio.play();
+		*/
+
+				$("rick").mouseout(function(){
+					myVideo.pause();
+				});
+
+				$("#click").click(function(){
+					$("#rick").clone().appendTo("#box1");	
+				});
+
+				$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+			
+
+		</script>
+
+		<style>
+			#box1{
+			background-image: url(assets/pattern.jpg);
+			
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box1">
+		</div>
+
+		<audio id= "doorbell">
+			<source src="assets/doorbell.mp3" type="audio/mp3">
+		</audio>
+
+
+<!--
+		<audio autoplay>
+			<source src="assets/meow.wav" type="audio/wav">
+		</audio>
+-->
+
+		<video id="rick" width="1800" autoplay>
+			<source src="assets/rick.mp4">
+			Sorry, your browser doesn't support HTML5 video :(
+		</video>
+ 
+
+		<a id="click" type="button">[exit black screen]</a>
+		<!--<a href="#" class="scrollToTop"> Pause Music </a> -->
+	</body>
+</html>
