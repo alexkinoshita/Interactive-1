@@ -1,0 +1,140 @@
+body{
+  cursor: default;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+@keyframes fadein {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  72% {
+    opacity: 1;
+  }
+
+}
+
+#myiFrame{
+  width:30%;
+  height:100%;
+}
+
+.fade1{
+  opacity: 0;
+  animation-name: fadein;
+  text-align:right;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size:2em;
+}
+
+.fade1:hover{
+  opacity: 100%;
+  color: #90995a;
+  cursor: crosshair;
+
+}
+
+.fade2{
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 10s;
+  animation-delay: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size:3em;
+}
+
+.fade2:hover{
+  opacity: 100%;
+  color: #90995a;
+  cursor: crosshair;
+}
+
+.fade3{
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 10s;
+  animation-delay: 7s;
+  text-align:right;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size:4em;
+}
+.fade3:hover{
+  opacity: 100%;
+  color: #90995a;
+  cursor: crosshair;
+}
+
+.fade4{
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 10s;
+  animation-delay: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size:2em;
+}
+.fade4:hover{
+  opacity: 100%;
+  color: #90995a;
+  cursor: crosshair;
+}
+
+.fade5{
+  opacity: 0;
+  animation-name: fadein;
+  text-align:right;
+  animation-duration: 10s;
+  animation-delay: 13s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  font-size:3em;
+}
+.fade5:hover{
+  opacity: 100%;
+  color: #90995a;
+  cursor: crosshair;
+}
+
+p {
+  position: relative;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica;
+}
+
+.p1 {
+  top: 10px;
+  left: 10px;
+}
+
+.p2 {
+  top: 140px;
+  left: 400px;
+}
+
+.p3 {
+  top: 75px;
+  left: 100px;
+}
+
+.p4 {
+  top: 50px;
+  left: 50px;
+}
+
+.p5 {
+  top: 30px;
+  left:1px;
+}

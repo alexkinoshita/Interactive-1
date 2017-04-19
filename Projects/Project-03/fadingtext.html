@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<!--<frameset cols="25%,*">
+  <frame src="frame_a.htm"> -->
+
+	
+	<head>
+  <link rel="stylesheet" href="fadingtext.css" type="text/css">
+  <link rel="stylesheet" href="fadingtext.js" type="text/js">
+<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+  		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+
+  
+
+	</head>
+	<body>
+<iframe id="myiFrame" data-src="http://my.url" src="about:blank">
+</iframe>
+
+<div class="container">
+  <p class="fade1 p1">STUDENT CHARGED WITH PEANUT BUTTER HAZING</p>
+
+  <p class="fade2 p2">PRESS SECRETARY SEAN SPICER APOLOGISES AFTER SAYING HITLER DID NOT USE CHEMICAL WEAPONS.</p>
+  
+  <p class="fade3 p3">WEGNER NOT IN THE MOOD TO TALK ABOUT FUTURE</p>
+
+  <p class="fade4 p4">ROOKIE JUSTICE GORSUCH ASSIGNED TO SUPREME COURT OVERNIGHT SHIFT</p>
+
+  <p class="fade5 p5">FEWER AMERICANS ARE TRYING TO LOSE WEIGHT</p>
+
+
+<script>
+
+$(".fade1").click(function(){
+    var iframe = $("#myiFrame");
+    iframe.attr("src", "http://www.bbc.com/news/world-us-canada-39569664"); 
+});
+
+$(".fade2").click(function(){
+    var iframe = $("#myiFrame");
+    iframe.attr("src", "http://www.cnn.com/2017/04/11/politics/sean-spicer-hitler-assad-gas-chemical-weapons/"); 
+});
+
+
+// $('.fade1').each(function(){
+//     $(this).css({'marginTop' : getRandomInt(-100,600), 'marginTop' : getRandomInt(-100,600)});
+// $('.fade2').each(function(){
+//     $(this).css({'marginTop' : getRandomInt(-100,600), 'marginTop' : getRandomInt(-100,600)});
+// $('.fade3').each(function(){
+//     $(this).css({'marginTop' : getRandomInt(-100,600), 'marginTop' : getRandomInt(-100,600)});
+// $('.fade4').each(function(){
+//     $(this).css({'marginTop' : getRandomInt(-100,600), 'marginTop' : getRandomInt(-100,600)});
+// $('.fade5').each(function(){
+//     $(this).css({'marginTop' : getRandomInt(-100,600), 'marginTop' : getRandomInt(-100,600)});
+// }); 
+
+</script>
+</div>
+
+</div>
+
+</body>
+</html>
